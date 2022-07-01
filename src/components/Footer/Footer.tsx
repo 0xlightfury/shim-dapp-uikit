@@ -34,7 +34,7 @@ const MenuItem: React.FC<FooterProps> = ({
   ...props
 }) => {
   return (
-    <StyledFooter p={["40px 16px", null, "56px 40px 32px 40px"]} {...props} justifyContent="center">
+    <StyledFooter p={["40px 16px", null, "56px 40px 72px 40px"]} {...props} justifyContent="center">
       <Pattern />
       <Flex flexDirection="column" width={["100%", null, "1200px;"]} zIndex={1}>
         <StyledIconMobileContainer display={["block", null, "none"]}>

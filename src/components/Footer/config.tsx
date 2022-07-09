@@ -79,17 +79,17 @@ export const socials = [
   {
     label: "Twitter",
     icon: "Twitter",
-    href: "https://twitter.com/#",
+    href: "https://twitter.com/ShimFinance01",
+  },
+  {
+    label: "Telegram",
+    icon: "Telegram",
+    href: "https://t.me/ShimFinance",
   },
   {
     label: "Discord",
     icon: "Discord",
     href: "https://discord.gg/#",
-  },
-  {
-    label: "Telegram",
-    icon: "Telegram",
-    href: "https://t.me/#",
   },
   // {
   //   label: "Reddit",
@@ -99,7 +99,7 @@ export const socials = [
   {
     label: "Instagram",
     icon: "Instagram",
-    href: "https://www.instagram.com/#",
+    href: "https://www.instagram.com/Shimfinance/",
   },
   {
     label: "Youtube",

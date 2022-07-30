@@ -82,14 +82,19 @@ export const socials = [
     href: "https://twitter.com/ShimFinance01",
   },
   {
+    label: "Discord",
+    icon: "Discord",
+    href: "https://discord.gg/EUNJ4hkqWE",
+  },
+  {
+    label: "Telegram",
+    icon: "Telegram",
+    href: "https://t.me/ShimFinanceDiscussion",
+  },
+  {
     label: "Telegram",
     icon: "Telegram",
     href: "https://t.me/ShimFinance",
-  },
-  {
-    label: "Discord",
-    icon: "Discord",
-    href: "https://discord.gg/#",
   },
   // {
   //   label: "Reddit",

@@ -5259,7 +5259,7 @@ var MenuItem = function (_a) {
                 React__default.createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default.createElement(Box, { mr: "20px" },
                         React__default.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: lightColors.textSubtle })),
-                    React__default.createElement(Button, { as: "a", href: "/presale", scale: "sm", endIcon: React__default.createElement(Icon$28, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
+                    React__default.createElement(Button, { as: "a", href: "https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56", scale: "sm", endIcon: React__default.createElement(Icon$28, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
 };
 
 var MenuItems = function (_a) {
@@ -5445,7 +5445,7 @@ var StyledNav = styled.nav(templateObject_2$3 || (templateObject_2$3 = __makeTem
     return theme.colors.cardBorder;
 });
 var StyledNavInner = styled(Flex)(templateObject_3$1 || (templateObject_3$1 = __makeTemplateObject(["\n  justify-content: space-between;\n  align-items: center;\n  width: 1400px;\n  height: 100%;\n  @media screen and (max-width:1400px) {\n    width: 100%;\n  }\n"], ["\n  justify-content: space-between;\n  align-items: center;\n  width: 1400px;\n  height: 100%;\n  @media screen and (max-width:1400px) {\n    width: 100%;\n  }\n"])));
-var FixedContainer = styled.div(templateObject_4 || (templateObject_4 = __makeTemplateObject(["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  height: ", ";\n  width: 100%;\n  z-index: 20;\n"], ["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  height: ", ";\n  width: 100%;\n  z-index: 20;\n"])), function (_a) {
+var FixedContainer = styled.div(templateObject_4 || (templateObject_4 = __makeTemplateObject(["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 1s;\n  height: ", ";\n  width: 100%;\n  z-index: 20;\n"], ["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 1s;\n  height: ", ";\n  width: 100%;\n  z-index: 20;\n"])), function (_a) {
     var showMenu = _a.showMenu, height = _a.height;
     return (showMenu ? 0 : "-" + height + "px");
 }, function (_a) {
@@ -5513,7 +5513,7 @@ var Menu$1 = function (_a) {
                         React__default.createElement(Logo$1, { isDark: isDark, href: (_b = homeLink === null || homeLink === void 0 ? void 0 : homeLink.href) !== null && _b !== void 0 ? _b : "/" }),
                         !isMobile && React__default.createElement(MenuItems, { items: links, activeItem: activeItem, activeSubItem: activeSubItem, ml: "24px" })),
                     React__default.createElement(Flex, { alignItems: "center", height: "100%" },
-                        !isMobile && (React__default.createElement(Box, { mr: "12px" },
+                        !isMobile && (React__default.createElement(Box, { mr: "36px" },
                             React__default.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd }))),
                         globalMenu,
                         " ",

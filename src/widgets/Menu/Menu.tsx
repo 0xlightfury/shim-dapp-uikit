@@ -47,7 +47,7 @@ const FixedContainer = styled.div<{ showMenu: boolean; height: number }>`
   position: fixed;
   top: ${({ showMenu, height }) => (showMenu ? 0 : `-${height}px`)};
   left: 0;
-  transition: top 0.2s;
+  transition: top 1s;
   height: ${({ height }) => `${height}px`};
   width: 100%;
   z-index: 20;
@@ -145,7 +145,7 @@ const Menu: React.FC<NavProps> = ({
             </Flex>
             <Flex alignItems="center" height="100%">
               {!isMobile && (
-                <Box mr="12px">
+                <Box mr="36px">
                   <CakePrice cakePriceUsd={cakePriceUsd} />
                 </Box>
               )}

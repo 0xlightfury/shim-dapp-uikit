@@ -5293,7 +5293,7 @@ var MenuItem = function (_a) {
                 React__default['default'].createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default['default'].createElement(Box, { mr: "20px" },
                         React__default['default'].createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: lightColors.textSubtle })),
-                    React__default['default'].createElement(Button, { as: "a", href: "https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56", scale: "sm", endIcon: React__default['default'].createElement(Icon$28, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
+                    React__default['default'].createElement(Button, { as: "a", target: "blank", href: "https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56", scale: "sm", endIcon: React__default['default'].createElement(Icon$28, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
 };
 
 var MenuItems = function (_a) {

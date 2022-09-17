@@ -47,7 +47,7 @@ const FixedContainer = styled.div<{ showMenu: boolean; height: number }>`
   position: fixed;
   top: ${({ showMenu, height }) => (showMenu ? 0 : `-${height}px`)};
   left: 0;
-  transition: top 1s;
+  transition: top 0.2s;
   height: ${({ height }) => `${height}px`};
   width: 100%;
   z-index: 20;

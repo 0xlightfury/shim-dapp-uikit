@@ -5445,7 +5445,7 @@ var StyledNav = styled.nav(templateObject_2$3 || (templateObject_2$3 = __makeTem
     return theme.colors.cardBorder;
 });
 var StyledNavInner = styled(Flex)(templateObject_3$1 || (templateObject_3$1 = __makeTemplateObject(["\n  justify-content: space-between;\n  align-items: center;\n  width: 1400px;\n  height: 100%;\n  @media screen and (max-width:1400px) {\n    width: 100%;\n  }\n"], ["\n  justify-content: space-between;\n  align-items: center;\n  width: 1400px;\n  height: 100%;\n  @media screen and (max-width:1400px) {\n    width: 100%;\n  }\n"])));
-var FixedContainer = styled.div(templateObject_4 || (templateObject_4 = __makeTemplateObject(["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 1s;\n  height: ", ";\n  width: 100%;\n  z-index: 20;\n"], ["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 1s;\n  height: ", ";\n  width: 100%;\n  z-index: 20;\n"])), function (_a) {
+var FixedContainer = styled.div(templateObject_4 || (templateObject_4 = __makeTemplateObject(["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  height: ", ";\n  width: 100%;\n  z-index: 20;\n"], ["\n  position: fixed;\n  top: ", ";\n  left: 0;\n  transition: top 0.2s;\n  height: ", ";\n  width: 100%;\n  z-index: 20;\n"])), function (_a) {
     var showMenu = _a.showMenu, height = _a.height;
     return (showMenu ? 0 : "-" + height + "px");
 }, function (_a) {

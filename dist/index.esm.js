@@ -4312,7 +4312,7 @@ var additionalColors = {
     silver: "#B2B2B2",
     bronze: "#E7974D",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#282E4E", backgroundDisabled: "#8589a5", backgroundAlt: "#1F2342", backgroundAlt2: "#1F2342B2", cardBorder: "#69ABE2", cardBackground: "linear-gradient(139.73deg,#2c3449 0%,#6b708e 100%)", contrast: "#191326", dropdown: "#414a63", dropdownDeep: "#414a63", invertedContrast: "#454c65", input: "#1F2342", inputSecondary: "#5B5B5B", tertiary: "#2F45C5", text: "#FFFFFF", textDisabled: "#BDC2C4", textSubtle: "#FFFFFF", disabled: "#E9EAEB", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#282E4E", backgroundDisabled: "#8589a5", backgroundAlt: "#1F2342", backgroundAlt2: "#1F2342B2", cardBorder: "#69ABE2", cardBackground: "linear-gradient(139.73deg,#2c3449 0%,#6b708e 100%)", contrast: "#191326", dropdown: "#414a63", dropdownDeep: "#414a63", invertedContrast: "#454c65", input: "#1F2342", inputSecondary: "#5B5B5B", tertiary: "#2F45C5", text: "#FFFFFF", textDisabled: "#BDC2C4", textSubtle: "#ADD6FF", disabled: "#E9EAEB", gradients: {
         bubblegum: "linear-gradient(139.73deg, #21595e 0%, #281953 100%)",
         inverseBubblegum: "linear-gradient(139.73deg, #F3EFFF 0%, #E5FDFF 100%)",
         cardHeader: "linear-gradient(180deg, #58a7b2 0%, #2c7d8f 100%)",

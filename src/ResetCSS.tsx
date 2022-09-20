@@ -30,6 +30,7 @@ const ResetCSS = createGlobalStyle`
   body {
     line-height: 1;
     font-size: 16px;
+    background: ${({ theme }) => theme.colors.background};
   }
   ol,
   ul {
@@ -82,13 +83,14 @@ const ResetCSS = createGlobalStyle`
   /* Scrollbar */
   ::-webkit-scrollbar {
     width: 8px;
+    height: 8px;
   }
   ::-webkit-scrollbar-thumb {
     background: ${({ theme }) => theme.colors.textSubtle}; 
     border-radius: 8px;
   }
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px ${({ theme }) => theme.colors.input}; 
+    box-shadow: inset 0 0 5px ${({ theme }) => theme.colors.background}; 
     border-radius: 10px;
   }
 

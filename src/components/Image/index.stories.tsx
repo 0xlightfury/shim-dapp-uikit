@@ -108,8 +108,8 @@ export const TokenPairImages: React.FC = () => {
             <TokenPairImage
               primarySrc={primarySrc}
               secondarySrc={secondarySrc}
-              height={64}
-              width={64}
+              height={50}
+              width={100}
               title={token.symbol}
               mb="16px"
             />
@@ -117,8 +117,8 @@ export const TokenPairImages: React.FC = () => {
               variant="inverted"
               primarySrc={secondarySrc}
               secondarySrc={primarySrc}
-              height={64}
-              width={64}
+              height={50}
+              width={100}
               title={token.symbol}
             />
           </StyledBox>

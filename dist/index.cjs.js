@@ -3003,12 +3003,8 @@ var variants$4 = {
 };
 
 var _a$2, _b$2;
-var StyledPrimaryImage = styled__default['default'](TokenImage)(templateObject_1$H || (templateObject_1$H = __makeTemplateObject(["\n  position: absolute;\n  width: ", "; // 92, 82 are arbitrary numbers to fit the variant\n\n  ", "\n"], ["\n  position: absolute;\n  width: ",
-    "; // 92, 82 are arbitrary numbers to fit the variant\n\n  ",
-    "\n"])), function (_a) {
-    var variant = _a.variant;
-    return variant === variants$4.DEFAULT ? "92%" : "82%";
-}, styledSystem.variant({
+var StyledPrimaryImage = styled__default['default'](TokenImage)(templateObject_1$H || (templateObject_1$H = __makeTemplateObject(["\n  position: absolute;\n  width: 50%;\n\n  ", "\n"], ["\n  position: absolute;\n  width: 50%;\n\n  ",
+    "\n"])), styledSystem.variant({
     variants: (_a$2 = {},
         _a$2[variants$4.DEFAULT] = {
             bottom: "auto",
@@ -3049,10 +3045,10 @@ var templateObject_1$H, templateObject_2$p;
 
 var TokenPairImage = function (_a) {
     var primarySrc = _a.primarySrc, secondarySrc = _a.secondarySrc, width = _a.width, height = _a.height, _b = _a.variant, variant = _b === void 0 ? variants$4.DEFAULT : _b, _c = _a.primaryImageProps, primaryImageProps = _c === void 0 ? {} : _c, _d = _a.secondaryImageProps, secondaryImageProps = _d === void 0 ? {} : _d, props = __rest(_a, ["primarySrc", "secondarySrc", "width", "height", "variant", "primaryImageProps", "secondaryImageProps"]);
-    var secondaryImageSize = Math.floor(width / 2);
+    var subWidth = Math.floor(width / 2);
     return (React__default['default'].createElement(Wrapper$3, __assign({ position: "relative", width: width, height: height }, props),
-        React__default['default'].createElement(StyledPrimaryImage, __assign({ variant: variant, src: primarySrc, width: width, height: height }, primaryImageProps)),
-        React__default['default'].createElement(StyledSecondaryImage, __assign({ variant: variant, src: secondarySrc, width: secondaryImageSize, height: secondaryImageSize }, secondaryImageProps))));
+        React__default['default'].createElement(StyledPrimaryImage, __assign({ variant: variant, src: primarySrc, width: subWidth, height: height }, primaryImageProps)),
+        React__default['default'].createElement(StyledSecondaryImage, __assign({ variant: variant, src: secondarySrc, width: subWidth, height: height }, secondaryImageProps))));
 };
 
 var StyledProfileAvatar = styled__default['default'](BackgroundImage)(templateObject_1$G || (templateObject_1$G = __makeTemplateObject(["\n  border-radius: 50%;\n"], ["\n  border-radius: 50%;\n"])));
